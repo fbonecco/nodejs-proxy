@@ -46,7 +46,7 @@ describe('GET /products', function () {
     };
     products.push(product);
 
-    
+
 
     supertest(app)
       .get('/products')
